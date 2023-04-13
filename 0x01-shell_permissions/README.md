@@ -1,1 +1,1 @@
-printing the effective user
+printing the user
