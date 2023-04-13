@@ -1,1 +1,1 @@
-hello there
+printing the effective user
