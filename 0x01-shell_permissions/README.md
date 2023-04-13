@@ -1,1 +1,1 @@
-printing the user
+listing groups
