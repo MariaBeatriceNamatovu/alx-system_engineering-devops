@@ -1,1 +1,1 @@
-rempving permissions
+mirror permissions
