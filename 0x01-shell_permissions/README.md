@@ -1,1 +1,1 @@
-direct
+movie in the terminal
