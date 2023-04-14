@@ -1,1 +1,1 @@
-print path name
+listing
