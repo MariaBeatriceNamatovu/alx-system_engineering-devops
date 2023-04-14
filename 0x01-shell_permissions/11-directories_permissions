@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod a+x /alx-system_engineering-devops/0x01-shell_permissions/dir1 /alx-system_engineering-devops/0x01-shell_permissions/dir2 /alx-system_engineering-devops/0x01-shell_permissions/dir3
-
+chmod -R ugo+x 
