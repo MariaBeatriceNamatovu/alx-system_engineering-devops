@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo "Processes containig 'bash' in their name:"
+
+pgrep -l bash | while read -r pid name; do
+	echo "$pid $name"
+done
+

@@ -1,0 +1,13 @@
+#!/bin/env bash
+
+./7-highlander &
+
+hightlander_pid=$!
+
+read -rp "Press Enter to kill '7-highlander' process..."
+
+pkill -f "7-highlander"
+
+wait "$highlander_pid"
+
+echo "Process killed."
