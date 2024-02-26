@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+counter=1
+other="bad luck from China"
+another="bad lack from Japan"
+item="bad luck from Italy"
+
+while [ $counter -le 20 ];
+do
+	echo "$counter"
+	((counter++))
+	case $counter in
+		4)
+			echo "$other"
+			;;
+		9)
+			echo "$another"
+			;;
+		17)
+			echo "$item"
+			;;
+	esac
+done

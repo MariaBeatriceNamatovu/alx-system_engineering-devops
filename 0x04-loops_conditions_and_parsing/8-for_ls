@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+files=$(ls)
+
+for file in $files; 
+do
+	part_after_dash=$(echo "file" | awk -F '-' '{print $2}')
+
+	echo "$part_after_dash"
+done

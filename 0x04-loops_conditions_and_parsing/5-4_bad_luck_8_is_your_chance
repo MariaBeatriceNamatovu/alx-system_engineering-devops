@@ -1,0 +1,20 @@
+#/usr/bin/env bash
+
+item="Best School"
+other="bad luck"
+another="good luck"
+counter=0
+
+while [ $counter -le 7 ];
+do
+	echo "$item"
+	if [ $counter -eq 2 ];
+	then
+		echo "$other"
+	elif [ $counter -eq 5 ];
+	then
+		echo "$another"
+	fi
+
+	((counter++))
+done

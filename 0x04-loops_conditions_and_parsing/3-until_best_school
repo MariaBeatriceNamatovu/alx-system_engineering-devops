@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+item="Best School"
+counter=1
+
+until [ $counter -gt 10 ];
+do 
+	echo "$item"
+	((counter++))
+done	
+
