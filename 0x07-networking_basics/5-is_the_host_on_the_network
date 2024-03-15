@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #Check for argument availability
-if [ "$#" -eq 0  ]; then
+if [ "$#" -eq 0 ]; then
 	echo "Usage: $0 {IP_ADDRESS}"
 	exit 1
 fi
