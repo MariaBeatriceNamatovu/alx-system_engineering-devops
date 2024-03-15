@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#using ifconfig to get networik interface information
+#using ifconfig to get network interface information
 ifconfig_output=$(ifconfig)
 
 #Extract ipv4 address using grep and awk
@@ -8,3 +8,4 @@ ipv4_address=$(echo "$ifconfig_output" | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-
 
 #Display the ipv4 addresses
 echo "$ipv4_address"
+
